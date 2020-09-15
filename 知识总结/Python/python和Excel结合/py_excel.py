@@ -20,6 +20,23 @@ def test():
                   "D:\\lzn\\Python_Project\\知识总结\\Python\\python和Excel结合\\123")
     data_to_excel(df, "test1.xlsx", "2020-09-04")
 
+def reset_col(filename):
+    """
+    根据每列的内容自动调整列宽
+    :param filename:
+    :return:
+    """
+    wb = load_workbook(filename)
+    for sheet in wb.sheetnames:
+        ws = wb[sheet]
+        df = pd.read_excel(filename, sheet).fillna('-')
+        df.loc[len(df)] = list(df.columns)  # 把标题行附加到最后一行
+        for col in df.columns:
+            index = list(df.columns).index(col)  # 列序号
+            letter = get_column_letter(index + 1)  # 列字母
+            collen = df[col].apply(lambda x: len(str(x).encode())).max()  # 获取这一列长度的最大值 当然也可以用min获取最小值 mean获取平均值
+            ws.column_dimensions[letter].width = collen  + 2
+
 def request_post_data(url, param):
     """
     获取数据源
