@@ -35,9 +35,8 @@ def reset_col(filename):
             index = list(df.columns).index(col)  # 列序号
             letter = get_column_letter(index + 1)  # 列字母
             collen = df[col].apply(lambda x: len(str(x).encode())).max()  # 获取这一列长度的最大值 当然也可以用min获取最小值 mean获取平均值
-            ws.column_dimensions[letter].width = collen  + 2
+            ws.column_dimensions[letter].width = collen*1.1  + 2
     wb.save(filename)
-
 
 def request_post_data(url, param):
     """
