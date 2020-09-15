@@ -1,0 +1,53 @@
+{
+   "2018":{
+        "Januaryasfasdfafaafafa": {
+                "food": 2408888888888.5,
+                "heating": 89.2,
+                "rent": 1709.10
+        },
+        "Februaryasfasdfasdf": {
+                "food": 202.5,
+                "heating": 112.2,
+                "rent": 1709.10
+        },
+        "Marcafsdfasdfasdfh": {
+                "food": 320.5,
+                "heating": 45.2,
+                "rent": 1709.10
+        }
+   },
+   "2019":{
+        "Januaryasfasdfafaafafa": {
+                "food": 120.5,
+                "heating": 88.2,
+                "rent": 1809.10
+        },
+        "Februaryasfasdfasdf": {
+                "food": 102.5,
+                "heating": 122.2,
+                "rent": 1809.10
+        },
+        "Marcafsdfasdfasdfh": {
+                "food": 120.5,
+                "heating": 35.2,
+                "rent": 1809.10
+        }
+   },
+   "2020":{
+        "Januaryasfasdfafaafafa": {
+                "food": 220.5,
+                "heating": 18.2,
+                "rent": 1909.10
+        },
+        "Februaryasfasdfasdf": {
+                "food": 223.5,
+                "heating": 12.2,
+                "rent": 1909.10
+        },
+        "Marcafsdfasdfasdfh": {
+                "food": 120.5,
+                "heating": 25.2,
+                "rent": 1909.10
+        }
+   }
+}
