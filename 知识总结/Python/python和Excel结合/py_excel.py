@@ -36,6 +36,8 @@ def reset_col(filename):
             letter = get_column_letter(index + 1)  # 列字母
             collen = df[col].apply(lambda x: len(str(x).encode())).max()  # 获取这一列长度的最大值 当然也可以用min获取最小值 mean获取平均值
             ws.column_dimensions[letter].width = collen  + 2
+    wb.save(filename)
+
 
 def request_post_data(url, param):
     """
@@ -107,6 +109,6 @@ if __name__ == '__main__':
     js = json.dumps(a, sort_keys=True, indent=4, separators=(',', ':'))  # 格式化转json格式
     df = pd.read_json(js, orient='records')
 
-    data_to_excel(df,"test1.xlsx","2020-09-02")
-
+    data_to_excel(df,"test1.xlsx","2020-09-03")
+    reset_col("test1.xlsx")
 
