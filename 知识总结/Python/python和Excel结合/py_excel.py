@@ -20,6 +20,9 @@ def test():
                   "D:\\lzn\\Python_Project\\知识总结\\Python\\python和Excel结合\\123")
     data_to_excel(df, "test1.xlsx", "2020-09-04")
 
+    #data_to_excel   自动调节列宽
+    reset_col("test1.xlsx")
+
 def reset_col(filename):
     """
     根据每列的内容自动调整列宽
@@ -109,5 +112,5 @@ if __name__ == '__main__':
     df = pd.read_json(js, orient='records')
 
     data_to_excel(df,"test1.xlsx","2020-09-03")
-    reset_col("test1.xlsx")
+
 
