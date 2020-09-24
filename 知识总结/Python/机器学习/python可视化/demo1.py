@@ -5,6 +5,7 @@ import seaborn as sns
 import numpy as np
 import pandas as pd
 
+#散点图
 def sdt_test():
     """
     散点图测试
@@ -22,4 +23,18 @@ def sdt_test():
     sns.jointplot(x="x", y="y", data=df, kind='scatter');
     plt.show()
 
-sdt_test()
+#折线图
+def zxt_test():
+    # 数据准备
+    x = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+    y = [5, 3, 6, 20, 17, 16, 19, 30, 32, 35]
+    # 使用Matplotlib画折线图
+    plt.plot(x, y)
+    plt.show()
+    # 使用Seaborn画折线图
+    df = pd.DataFrame({'x': x, 'y': y})
+    sns.lineplot(x="x", y="y", data=df)
+    plt.show()
+
+#sdt_test()
+zxt_test()

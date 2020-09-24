@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40dfc72d-696d-4857-877a-c19e6eb43f7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/demo1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/demo1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/My_Project$test.coverage" NAME="test Coverage Results" MODIFIED="1600766176939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/Python/机器学习/数据规范" />
     <SUITE FILE_PATH="coverage/My_Project$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1600418132776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/scikit-learn" />
-    <SUITE FILE_PATH="coverage/My_Project$demo1__2_.coverage" NAME="demo1 (2) Coverage Results" MODIFIED="1600774197950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化" />
+    <SUITE FILE_PATH="coverage/My_Project$demo1__2_.coverage" NAME="demo1 (2) Coverage Results" MODIFIED="1600910884318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化" />
     <SUITE FILE_PATH="coverage/My_Project$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1600740500379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_Project/知识总结/test_tem" />
     <SUITE FILE_PATH="coverage/My_Project$py_excel.coverage" NAME="py_excel Coverage Results" MODIFIED="1600153464436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/Python/python和Excel结合" />
     <SUITE FILE_PATH="coverage/My_Project$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1600480945491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_Project/知识总结/test_tem" />
@@ -56,11 +56,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/demo1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="132">
+              <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
               <folding>
                 <element signature="e#43#74#0" expanded="true" />
-                <element signature="e#157#471#0" />
               </folding>
             </state>
           </provider>
@@ -92,8 +91,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="442" />
-    <option name="y" value="51" />
+    <option name="x" value="592" />
+    <option name="y" value="24" />
     <option name="width" value="736" />
     <option name="height" value="639" />
   </component>
@@ -103,7 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,6 +124,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,6 +147,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.demo1 (2)">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="My_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="demo1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,7 +303,8 @@
       <workItem from="1600153125048" duration="8058000" />
       <workItem from="1600343356667" duration="1209000" />
       <workItem from="1600415480834" duration="15335000" />
-      <workItem from="1600772817385" duration="1925000" />
+      <workItem from="1600772817385" duration="3930000" />
+      <workItem from="1600910593169" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="优化自动调整列宽">
       <created>1600153328386</created>
@@ -333,11 +355,18 @@
       <option name="project" value="LOCAL" />
       <updated>1600765983177</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="绘图学习">
+      <created>1600775021652</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600775021652</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27245000" />
+    <option name="totallyTimeSpent" value="29532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,14 +379,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06656581" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06732224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32131147" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.43606558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -366,12 +394,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.27213115" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.5770492" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.32131147" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" sideWeight="0.502907" side_tool="true" visible="true" weight="0.12254161" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.32980332" />
+      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.49709302" visible="true" weight="0.12254161" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
     </layout>
   </component>
@@ -384,7 +413,8 @@
     <MESSAGE value="新增scikit-learn学习" />
     <MESSAGE value="新增数据规发" />
     <MESSAGE value="新增数据规范" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增数据规范" />
+    <MESSAGE value="绘图学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="绘图学习" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/知识总结/Python/python和Excel结合/test.py">
@@ -456,11 +486,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="132">
+          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
             <element signature="e#43#74#0" expanded="true" />
-            <element signature="e#157#471#0" />
           </folding>
         </state>
       </provider>
