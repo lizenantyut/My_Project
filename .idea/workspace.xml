@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40dfc72d-696d-4857-877a-c19e6eb43f7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/anagrams.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/anscombe.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/attention.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/brain_networks.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/car_crashes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/diamonds.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/dots.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/exercise.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/flights.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/fmri.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/gammas.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/geyser.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/iris.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/mpg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/penguins.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/planets.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/png/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/png/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/png/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/png/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/png/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/png/img6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/process/attention.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/process/exercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/process/flights.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/process/gammas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/process/geyser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/process/mpg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/process/planets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/process/titanic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/raw/attention.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/raw/exercise.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/raw/geyser.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/raw/mpg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/raw/planets.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/raw/titanic.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/tips.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/seaborn-data/titanic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/Fonts/simhei.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/demo1.py" afterDir="false" />
     </list>
@@ -53,7 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/My_Project$test.coverage" NAME="test Coverage Results" MODIFIED="1600766176939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/Python/机器学习/数据规范" />
     <SUITE FILE_PATH="coverage/My_Project$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1600418132776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/scikit-learn" />
-    <SUITE FILE_PATH="coverage/My_Project$demo1__2_.coverage" NAME="demo1 (2) Coverage Results" MODIFIED="1600935136067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化" />
+    <SUITE FILE_PATH="coverage/My_Project$demo1__2_.coverage" NAME="demo1 (2) Coverage Results" MODIFIED="1600947717143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/Python/机器学习/python可视化" />
     <SUITE FILE_PATH="coverage/My_Project$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1600740500379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_Project/知识总结/test_tem" />
     <SUITE FILE_PATH="coverage/My_Project$py_excel.coverage" NAME="py_excel Coverage Results" MODIFIED="1600153464436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/Python/python和Excel结合" />
     <SUITE FILE_PATH="coverage/My_Project$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1600480945491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_Project/知识总结/test_tem" />
@@ -95,53 +57,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/demo1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="125" column="21" lean-forward="true" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+            <state relative-caret-position="113">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
               <folding>
                 <element signature="e#43#74#0" expanded="true" />
-                <element signature="e#162#476#0" />
-                <element signature="e#503#796#0" />
-                <element signature="e#823#1151#0" />
-                <element signature="e#1069#1322#0" />
-                <element signature="e#1287#1563#0" />
-                <element signature="e#1588#1801#0" />
+                <element signature="e#826#1140#0" />
+                <element signature="e#1167#1460#0" />
+                <element signature="e#1487#1706#0" />
+                <element signature="e#1733#1924#0" />
+                <element signature="e#1951#2227#0" />
+                <element signature="e#2252#2429#0" />
+                <element signature="e#1803#2254#0" />
+                <element signature="e#3050#3054#0" />
+                <element signature="e#3451#3613#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../app/Anaconda/Anaconda3/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="319" selection-start-line="319" selection-end-line="319" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/seaborn/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="529" selection-start-line="529" selection-end-line="529" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../app/Anaconda/Anaconda3/Lib/genericpath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../app/Anaconda/Anaconda3/Lib/ntpath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
             </state>
           </provider>
         </entry>
@@ -232,6 +161,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\lzn\My_Project\知识总结\Python\机器学习\python可视化\Fonts" />
       <recent name="D:\lzn\My_Project\知识总结\Python\机器学习\python可视化\seaborn-data" />
     </key>
   </component>
@@ -407,6 +337,7 @@
       <workItem from="1600772817385" duration="3930000" />
       <workItem from="1600910593169" duration="1631000" />
       <workItem from="1600927490822" duration="6724000" />
+      <workItem from="1600935210128" duration="4604000" />
     </task>
     <task id="LOCAL-00001" summary="优化自动调整列宽">
       <created>1600153328386</created>
@@ -471,11 +402,18 @@
       <option name="project" value="LOCAL" />
       <updated>1600910932401</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="绘图学习">
+      <created>1600935369249</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600935369249</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37605000" />
+    <option name="totallyTimeSpent" value="42209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,12 +428,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1505295" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12934947" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.29180327" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.43770492" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,13 +441,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27213115" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.6442623" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.46393442" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.32131147" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.49508196" visible="true" weight="0.055219363" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49508196" visible="true" weight="0.108169444" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="5" sideWeight="0.50491804" side_tool="true" weight="0.6323752" />
     </layout>
@@ -525,17 +463,6 @@
     <MESSAGE value="新增数据规范" />
     <MESSAGE value="绘图学习" />
     <option name="LAST_COMMIT_MESSAGE" value="绘图学习" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/demo1.py</url>
-          <line>117</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/知识总结/Python/python和Excel结合/test.py">
@@ -585,6 +512,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/知识总结/Python/机器学习/数据规范.py" />
+    <entry file="file://$PROJECT_DIR$/../app/Anaconda/Anaconda3/Lib/site-packages/seaborn/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="425" column="62" lean-forward="true" selection-start-line="424" selection-start-column="8" selection-end-line="425" selection-end-column="62" />
+          <folding>
+            <element signature="e#11079#11691#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/知识总结/Python/python和Excel结合/py_excel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2565">
@@ -599,34 +536,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app/Anaconda/Anaconda3/Lib/site-packages/seaborn/utils.py">
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/seaborn/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="425" column="62" lean-forward="true" selection-start-line="424" selection-start-column="8" selection-end-line="425" selection-end-column="62" />
-          <folding>
-            <element signature="e#11079#11691#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../app/Anaconda/Anaconda3/Lib/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="13932">
+          <caret line="529" selection-start-line="529" selection-end-line="529" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../app/Anaconda/Anaconda3/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="2754">
           <caret line="106" selection-start-line="106" selection-end-line="106" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/seaborn/utils.py">
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/matplotlib/font_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="529" selection-start-line="529" selection-end-line="529" />
+        <state relative-caret-position="-835">
+          <caret line="679" column="8" selection-start-line="679" selection-start-column="8" selection-end-line="679" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/matplotlib/projections/polar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <caret line="1302" column="8" selection-start-line="1302" selection-start-column="8" selection-end-line="1302" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -637,18 +571,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Anaconda/Anaconda3/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/知识总结/Python/机器学习/python可视化/demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="125" column="21" lean-forward="true" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+        <state relative-caret-position="113">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
           <folding>
             <element signature="e#43#74#0" expanded="true" />
-            <element signature="e#162#476#0" />
-            <element signature="e#503#796#0" />
-            <element signature="e#823#1151#0" />
-            <element signature="e#1069#1322#0" />
-            <element signature="e#1287#1563#0" />
-            <element signature="e#1588#1801#0" />
+            <element signature="e#826#1140#0" />
+            <element signature="e#1167#1460#0" />
+            <element signature="e#1487#1706#0" />
+            <element signature="e#1733#1924#0" />
+            <element signature="e#1951#2227#0" />
+            <element signature="e#2252#2429#0" />
+            <element signature="e#1803#2254#0" />
+            <element signature="e#3050#3054#0" />
+            <element signature="e#3451#3613#0" />
           </folding>
         </state>
       </provider>

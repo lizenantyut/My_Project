@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import pandas as pd
+from matplotlib.font_manager import FontProperties
 import os
 
 
@@ -90,13 +91,59 @@ def bt_test():
 #热力图
 def rlt_test():
     # 数据准备
-    df_flights = sns.load_dataset("flights",data_home=os.getcwd()+"\\"+'seaborn-data',cache=True,)
+    df_flights = sns.load_dataset("flights",data_home='seaborn-data',cache=True,)
     data = df_flights.pivot('year', 'month', 'passengers')
-    # print(data)
     # #用Seaborn画热力图
     sns.heatmap(data)
     plt.show()
 
+    # 鸢尾花数据集合
+    # df = sns.load_dataset('iris', data_home='seaborn-data', cache=True)
+    #
+    # # Plot
+    # plt.figure(figsize=(10, 8), dpi=80)
+    # sns.pairplot(df, kind="reg", hue="species")
+    # plt.show()
+
+#蜘蛛图
+def zzt_test():
+    # 数据准备
+    #labels = np.array([u"推进", "KDA", u"生存", u"团战", u"发育", u"输出"])
+    labels = np.array(["Tuijin", "KDA", "shengcun", "tz", "fy", "sc"])
+    stats = [83, 61, 95, 67, 76, 88]
+    # 画图数据准备，角度、状态值
+    angles = np.linspace(0, 2 * np.pi, len(labels), endpoint=False)
+    stats = np.concatenate((stats, [stats[0]]))
+    angles = np.concatenate((angles, [angles[0]]))
+    # 用Matplotlib画蜘蛛图
+    fig = plt.figure()
+    ax = fig.add_subplot(111, polar=True)
+    ax.plot(angles, stats, 'o-', linewidth=2)
+    ax.fill(angles, stats, alpha=0.25)
+    # 设置中文字体  这里没成功
+    font = FontProperties(fname="/System/Library/Fonts/STHeiti Medium.ttc", size=14)
+    #ax.set_thetagrids(angles * 180 / np.pi, labels, FontProperties=font)
+    plt.show()
+
+
+#二元变量分布
+def eyfbt_test():
+    # 数据准备
+    tips = sns.load_dataset("tips", data_home='seaborn-data', cache=True)
+    print(tips.head(10))
+    # 用Seaborn画二元变量分布图（散点图，核密度图，Hexbin图）
+    sns.jointplot(x="total_bill", y="tip", data=tips, kind='scatter')
+    sns.jointplot(x="total_bill", y="tip", data=tips, kind='kde')
+    sns.jointplot(x="total_bill", y="tip", data=tips, kind='hex')
+    plt.show()
+
+#成对关系
+def cdgxt_test():
+    # 数据准备
+    iris = sns.load_dataset('iris',data_home='seaborn-data', cache=True)
+    # 用Seaborn画成对关系
+    sns.pairplot(iris)
+    plt.show()
 
 # sdt_test()
 # zxt_test()
@@ -104,4 +151,7 @@ def rlt_test():
 # txt_test()
 # xxt_test()
 # bt_test()
-rlt_test()
+# rlt_test()
+zzt_test()
+# eyfbt_test()
+# cdgxt_test()
