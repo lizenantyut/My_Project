@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40dfc72d-696d-4857-877a-c19e6eb43f7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/知识总结/ML_learn/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/ML_learn/titantic_demo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识总结/ML_learn/train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/知识总结/ML_learn/titantic_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/知识总结/ML_learn/titantic_demo1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +18,7 @@
     <SUITE FILE_PATH="coverage/My_Project$titantic_demo.coverage" NAME="titantic_demo Coverage Results" MODIFIED="1601036460424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_Project/数据分析/TEST" />
     <SUITE FILE_PATH="coverage/My_Project$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1601191020336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_Project/数据分析/TEST" />
     <SUITE FILE_PATH="coverage/My_Project$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1600740500379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_Project/知识总结/test_tem" />
-    <SUITE FILE_PATH="coverage/My_Project$titantic_demo1.coverage" NAME="titantic_demo1 Coverage Results" MODIFIED="1601191627926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/ML_learn" />
+    <SUITE FILE_PATH="coverage/My_Project$titantic_demo1.coverage" NAME="titantic_demo1 Coverage Results" MODIFIED="1601193069604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/ML_learn" />
     <SUITE FILE_PATH="coverage/My_Project$py_excel.coverage" NAME="py_excel Coverage Results" MODIFIED="1600153464436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/Python/python和Excel结合" />
     <SUITE FILE_PATH="coverage/My_Project$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1600480945491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_Project/知识总结/test_tem" />
   </component>
@@ -57,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/知识总结/ML_learn/titantic_demo1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="205">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#13#23#0" expanded="true" />
                 <element signature="e#38#1882#0" />
@@ -97,10 +95,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="628" />
-    <option name="y" value="53" />
-    <option name="width" value="736" />
-    <option name="height" value="639" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -135,12 +133,6 @@
               <item name="My_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Project" type="462c0819:PsiDirectoryNode" />
               <item name="数据分析" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
-              <item name="TEST" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,7 +325,7 @@
       <workItem from="1600772817385" duration="3930000" />
       <workItem from="1600910593169" duration="1631000" />
       <workItem from="1600927490822" duration="6724000" />
-      <workItem from="1600935210128" duration="12175000" />
+      <workItem from="1600935210128" duration="14716000" />
     </task>
     <task id="LOCAL-00001" summary="优化自动调整列宽">
       <created>1600153328386</created>
@@ -412,11 +404,25 @@
       <option name="project" value="LOCAL" />
       <updated>1600995085535</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="泰坦尼克号学习">
+      <created>1601191740517</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601191740517</updated>
+    </task>
+    <task id="LOCAL-00013" summary="泰坦尼克号机器学习">
+      <created>1601191811977</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601191811977</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49780000" />
+    <option name="totallyTimeSpent" value="52321000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -429,14 +435,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20877458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20877458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.52786887" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3065574" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,7 +451,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.41147542" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.31639344" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.32131147" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5015129" side_tool="true" weight="0.5885246" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -465,7 +470,9 @@
     <MESSAGE value="新增数据规发" />
     <MESSAGE value="新增数据规范" />
     <MESSAGE value="绘图学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="绘图学习" />
+    <MESSAGE value="泰坦尼克号学习" />
+    <MESSAGE value="泰坦尼克号机器学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="泰坦尼克号机器学习" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/知识总结/Python/python和Excel结合/test.py">
@@ -652,8 +659,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/知识总结/ML_learn/titantic_demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="205">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#13#23#0" expanded="true" />
             <element signature="e#38#1882#0" />
