@@ -57,4 +57,4 @@ def prepare_pack():
 
     # Any results you write to the current directory are saved as output.
 
-#prepare_pack()
+prepare_pack()
