@@ -16,7 +16,9 @@ from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 from sklearn import feature_selection
 from sklearn import model_selection
 from sklearn import metrics
+import os
 
+os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.UTF8'
 #Visualization
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -70,12 +72,22 @@ def prepare_pack():
     import warnings
     warnings.filterwarnings('ignore')
     print('-' * 25)
-    # Input data files are available in the "../input/" directory.
-    # For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
+    from subprocess import check_output
 
-    # from subprocess import check_output
-    # print(check_output(["ls", "../input"]).decode("utf8"))
+def greet_data_1():
+    """
+    meet and greetdata
+    """
+    #pclass     船票等级 1 最高 2 次之 3 最低
+    #Embarked   出发地
 
-    # Any results you write to the current directory are saved as output.
+    pass
 
-prepare_pack()
+#prepare_pack()
+data_raw = pd.read_csv('train.csv')
+data_val  = pd.read_csv("test.csv")
+data1 = data_raw.copy(deep = True)
+data_cleaner = [data1, data_val]
+print (data_raw.info())
+
+#D:\\lzn\\My_Project\\知识总结\\ML_learn\\test.csv
