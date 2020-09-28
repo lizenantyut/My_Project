@@ -84,10 +84,37 @@ def greet_data_1():
     pass
 
 #prepare_pack()
+#####################################################加载数据#######################################################
 data_raw = pd.read_csv('train.csv')
 data_val  = pd.read_csv("test.csv")
 data1 = data_raw.copy(deep = True)
 data_cleaner = [data1, data_val]
 print (data_raw.info())
+print(data_raw.sample(10))
 
-#D:\\lzn\\My_Project\\知识总结\\ML_learn\\test.csv
+
+print('Train columns with null values:\n', data1.isnull().sum())
+print("-"*10)
+print('Test/Validation columns with null values:\n', data_val.isnull().sum())
+print("-"*10)
+data_raw.describe(include = 'all')
+
+
+#####################################################清洗数据#######################################################
+for dataset in data_cleaner:
+    #complete missing age with median 用中位数填充
+    dataset['Age'].fillna(dataset['Age'].median(), inplace = True)
+
+    #complete embarked with mode      用众数填充
+    dataset['Embarked'].fillna(dataset['Embarked'].mode()[0], inplace = True)
+
+    #complete missing fare with median 用中位数填充
+    dataset['Fare'].fillna(dataset['Fare'].median(), inplace = True)
+
+#delete the cabin feature/column and others previously stated to exclude in train dataset
+drop_column = ['PassengerId','Cabin', 'Ticket']
+data1.drop(drop_column, axis=1, inplace = True)
+
+print(data1.isnull().sum())
+print("-"*10)
+print(data_val.isnull().sum())
