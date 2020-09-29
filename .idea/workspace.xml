@@ -19,7 +19,7 @@
     <SUITE FILE_PATH="coverage/My_Project$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1601191020336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_Project/数据分析/TEST" />
     <SUITE FILE_PATH="coverage/My_Project$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1600740500379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_Project/知识总结/test_tem" />
     <SUITE FILE_PATH="coverage/My_Project$titantic_demo__1_.coverage" NAME="titantic_demo (1) Coverage Results" MODIFIED="1601220049473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../My_ML/TITANIC_ML" />
-    <SUITE FILE_PATH="coverage/My_Project$titantic_demo1.coverage" NAME="titantic_demo1 Coverage Results" MODIFIED="1601364979905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/ML_learn" />
+    <SUITE FILE_PATH="coverage/My_Project$titantic_demo1.coverage" NAME="titantic_demo1 Coverage Results" MODIFIED="1601370045909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/ML_learn" />
     <SUITE FILE_PATH="coverage/My_Project$py_excel.coverage" NAME="py_excel Coverage Results" MODIFIED="1600153464436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识总结/Python/python和Excel结合" />
     <SUITE FILE_PATH="coverage/My_Project$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1600480945491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_Project/知识总结/test_tem" />
   </component>
@@ -42,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Python_Project/my_tool/py_excle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="216">
               <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
                 <element signature="e#443#2692#0" />
@@ -53,16 +53,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/知识总结/ML_learn/titantic_demo1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="180" column="30" selection-start-line="180" selection-start-column="30" selection-end-line="180" selection-end-column="30" />
+            <state relative-caret-position="172">
+              <caret line="215" column="19" lean-forward="true" selection-start-line="215" selection-start-column="19" selection-end-line="215" selection-end-column="19" />
               <folding>
                 <element signature="e#13#23#0" expanded="true" />
-                <element signature="e#958#2483#0" />
-                <element signature="e#2509#2524#0" />
+                <element signature="e#1025#2550#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../app/Anaconda/Anaconda3/Lib/site-packages/sklearn/model_selection/_split.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1512">
+              <caret line="1980" column="18" selection-start-line="1980" selection-start-column="18" selection-end-line="1980" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -75,6 +83,12 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sns</find>
+      <find>data1_dummy</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,8 +111,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="542" />
-    <option name="y" value="24" />
+    <option name="x" value="117" />
+    <option name="y" value="23" />
     <option name="width" value="736" />
     <option name="height" value="639" />
   </component>
@@ -116,17 +130,6 @@
               <item name="My_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="My_Project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="My_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="知识总结" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="知识总结" type="462c0819:PsiDirectoryNode" />
-              <item name="ML_learn" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -138,7 +141,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python_Project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="My_Project" sdk-home="D:\lzn\app\Anaconda\Anaconda3\python.exe">
+        <option name="mySdkHome" value="D:\lzn\app\Anaconda\Anaconda3\python.exe" />
+        <option name="myModuleName" value="My_Project" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -329,6 +340,7 @@
       <workItem from="1600910593169" duration="1631000" />
       <workItem from="1600927490822" duration="6724000" />
       <workItem from="1600935210128" duration="37898000" />
+      <workItem from="1601366519998" duration="4168000" />
     </task>
     <task id="LOCAL-00001" summary="优化自动调整列宽">
       <created>1600153328386</created>
@@ -449,13 +461,20 @@
       <option name="project" value="LOCAL" />
       <updated>1601297479062</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="泰坦尼克号机器学习-数据转换">
+      <created>1601366571118</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601366571118</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75503000" />
+    <option name="totallyTimeSpent" value="79671000" />
   </component>
-  <component name="TodoView" selected-index="3">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -468,12 +487,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13842663" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14069591" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.19016394" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.45901638" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -482,7 +501,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49848714" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.71482605" weight="0.47704917" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.89712554" weight="0.43770492" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.89712554" visible="true" weight="0.8032787" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5015129" side_tool="true" weight="0.46065575" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -508,7 +527,8 @@
     <MESSAGE value="泰坦尼克号机器学习-安装xgboost" />
     <MESSAGE value="泰坦尼克号机器学习-一步一步测试" />
     <MESSAGE value="泰坦尼克号机器学习-一步一步测试2" />
-    <option name="LAST_COMMIT_MESSAGE" value="泰坦尼克号机器学习-一步一步测试2" />
+    <MESSAGE value="泰坦尼克号机器学习-数据转换" />
+    <option name="LAST_COMMIT_MESSAGE" value="泰坦尼克号机器学习-数据转换" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -768,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Python_Project/my_tool/py_excle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="216">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding>
             <element signature="e#443#2692#0" />
@@ -778,15 +798,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/知识总结/ML_learn/test.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-23978" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-10721">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/知识总结/ML_learn/titantic_demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="180" column="30" selection-start-line="180" selection-start-column="30" selection-end-line="180" selection-end-column="30" />
+        <state relative-caret-position="172">
+          <caret line="215" column="19" lean-forward="true" selection-start-line="215" selection-start-column="19" selection-end-line="215" selection-end-column="19" />
           <folding>
             <element signature="e#13#23#0" expanded="true" />
-            <element signature="e#958#2483#0" />
-            <element signature="e#2509#2524#0" />
+            <element signature="e#1025#2550#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Anaconda/Anaconda3/Lib/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1512">
+          <caret line="1980" column="18" selection-start-line="1980" selection-start-column="18" selection-end-line="1980" selection-end-column="18" />
         </state>
       </provider>
     </entry>

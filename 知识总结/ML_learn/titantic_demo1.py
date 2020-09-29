@@ -185,7 +185,35 @@ print('Bin X Y: ', data1_xy_bin, '\n')
 
 
 #define x and y variables for dummy features original
+#one-hot encoding 特征值提取 方法是 get_dummies
+#one-hot的基本思想：将离散型特征的每一种取值都看成一种状态，若你的这一特征中有N个不相同的取值，
+# 那么我们就可以将该特征抽象成N种不同的状态，one-hot编码保证了每一个取值只会使得一种状态处于“激活态”，
+# 也就是说这N种状态中只有一个状态位值为1，其他状态位都是0。
+# 举个例子，假设我们以学历为例，我们想要研究的类别为小学、中学、大学、硕士、博士五种类别，
+# 我们使用one-hot对其编码就会得到：
+
 data1_dummy = pd.get_dummies(data1[data1_x])
 data1_x_dummy = data1_dummy.columns.tolist()
 data1_xy_dummy = Target + data1_x_dummy
 print('Dummy X Y: ', data1_xy_dummy, '\n')
+
+
+#####################################切割训练级数据和测试数据 防止过拟合##################################
+#split train and test data with function defaults
+#random_state -> seed or control random number generator: https://www.quora.com/What-is-seed-in-random-number-generation
+train1_x, test1_x, train1_y, test1_y = model_selection.train_test_split(
+    data1[data1_x_calc], data1[Target], random_state = 0)
+train1_x_bin, test1_x_bin, train1_y_bin, test1_y_bin = model_selection.train_test_split(
+    data1[data1_x_bin], data1[Target] , random_state = 0)
+train1_x_dummy, test1_x_dummy, train1_y_dummy, test1_y_dummy = model_selection.train_test_split(
+    data1_dummy[data1_x_dummy], data1[Target], random_state = 0)
+
+
+print("Data1 Shape: {}".format(data1.shape))
+print("Train1 Shape: {}".format(train1_x.shape))
+print("Test1 Shape: {}".format(test1_x.shape))
+
+train1_x_bin.head()
+
+
+#####################################用统计学进行探索性的分析 终于到了画图时刻##################################
